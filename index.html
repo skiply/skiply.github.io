@@ -23,8 +23,10 @@
 
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="assest/main.css" rel="stylesheet" media="screen">
-      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="assest/bootstrap.css" rel="stylesheet" media="screen">
+      <link href="assest/responsive.css" rel="stylesheet" media="screen">
+      <link href="assest/styles.css" rel="stylesheet" media="screen">
+      <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="shortcut icon" href="assest/favicon.png">
 
     </head>
@@ -55,18 +57,23 @@
                 
  <div class="row-fluid">
     <div class="main-content hurl">
-      <section class="stream-container">
 
+      <section class="stream-container">
+       <div class="span2"></div>
+      <div class="span10"><div class="alert alert-block"><button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4>Supported Links :</h4>Adf.ly, q.gs, j.gs, sh.st, ay.gy, adfoc.us.
+          </div>
+      </div>
         <form id="hurl">
           
           <div class="row-fluid" id="data">
             <div class="span2">
-              <h4>Links</h4>
+              <h4 class="pull-right">Links</h4>
             </div>
             <div class="span10">
 
               <div id="body" >
-                <textarea name="body" class="input-block-level" rows="6" placeholder="Paste Here Adf.ly, Adfoc.us, Linkbucks, Bc.Vc links (multiple links, one each lines)" id="url"></textarea>
+                <textarea name="body" class="input-block-level" rows="10" placeholder="Paste Here Adf.ly, Adfoc.us, Linkbucks, Bc.Vc links (multiple links, one each lines)" id="url"></textarea>
               </div>
             </div>
           </div>
@@ -106,6 +113,7 @@
             </footer>
         </div>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-         <script src="assest/skiply.js"></script>
+        <script type="text/javascript" src="assest/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assest/skiply.js"></script>
     </body>
 </html>

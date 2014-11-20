@@ -866,10 +866,14 @@ header {
 .copyright {
   display: block;
   clear: both;
-  color: rgba(255, 255, 255, 0.19999999999999996);
+  color: #ffffff;
   padding-top: 0px;
   text-align: center;
   font-size: 12px;
+}
+.copyright a:hover {
+  color: #ffffff;
+
 }
 
 /* BUTTONS BUTTONS BUTTONS */
