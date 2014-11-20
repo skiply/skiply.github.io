@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 if ($('#url').val() == '') {
-    var defaultValue3 = 'http://adf.ly/uCCdU' + '\n' + 'http://j.gs/4lQt' + '\n' + 'http://q.gs/7oUUo' + '\n' + 'http://ay.gy/uCCdU' + '\n' + 'http://adfoc.us/x50624552' + '\n' +'http://sh.st/uXXin' ;
+    var defaultValue3 = 'http://adf.ly/uCCdU' + '\n' + 'http://j.gs/4lQt' + '\n' + 'http://q.gs/7oUUo' + '\n' + 'http://ay.gy/uCCdU' + '\n' + 'http://adfoc.us/x50624552' + '\n' +'http://sh.st/uXXin' + '\n' + 'http://linkshrink.net/79nmLJ' + '\n' + 'http://www.oni.vn/2VTDb' ;
     $('#url').val(defaultValue3);
 }
 $('form').submit(function(e) {
